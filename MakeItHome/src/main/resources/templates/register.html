@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .table {
+            border-collapse: collapse;
+            width: 600px;
+            border-radius: 50px;
+            border: 1px solid #dee2e6;
+        }
+    </style>
+</head>
+<body>
+<table align="center" class="table">
+    <tr>
+        <td style="background-color: #ffffff; padding: 40px 30px 40px 30px; text-align: center">
+            <h2>Welcome to MakeItHome.com</h2>
+            
+            	<h3>Hello <span th:text="${name}"></span>,</h3>
+            <p>
+				We’re super excited to see you join the MakeItHome.com eShopping Family.
+
+				We hope you will be happy with our Home Decor products and that you will shop with us again and again.
+
+				Our goal is to offer the widest range of Home Decor products at the highest quality. If you think we should add any items to our website, don’t hesitate to contact us and share your feedback.
+
+				Until then, enjoy your shopping!
+			</p>
+        </td>
+    </tr>
+</table>
+</body>
+</html>
